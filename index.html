@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dark Neumorphic Social Media Buttons</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+        <div class="icons">
+          <li><a href="https://www.facebook.com/dheeman.das.14"><span class="fab fa-facebook-f"></span></a></li>
+          <li><a href="https://mobile.twitter.com/DheemanDas7"><span class="fab fa-twitter"></span></a></li>
+          <li><a href="https://github.com/Reliable-Royalty-29"><span class="fab fa-github"></span></a></li>
+          <li><a href="https://www.instagram.com/lively_colours7/"><span class="fab fa-instagram"></span></a></li>
+          <li><a href="https://www.youtube.com/channel/UCD6VGsroCyYzlnsADGcTDXQ"><span class="fab fa-youtube"></span></a></li>
+            <p class="para">Created By Dheeman Das || @2021</p>
+        </div>
+
+
+        <script>
+        $('.icons li').click(function(){
+          $(this).toggleClass("active").siblings();
+          $('.icons li a').toggleClass("active").siblings();
+
+        });
+
+        </script>
+
+
+  </body>
+</html>
